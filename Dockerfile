@@ -2,7 +2,7 @@
 # docker build -t mosazhaw/djl-footwear-classification .
 # docker run --name djl-footwear-classification -p 8080:8080 -d mosazhaw/djl-footwear-classification
 
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:25-jdk-noble
 
 # Copy Files
 WORKDIR /usr/src/app
